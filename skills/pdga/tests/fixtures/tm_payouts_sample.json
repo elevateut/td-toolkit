@@ -1,0 +1,6369 @@
+{
+ "source": "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_payouts?TournID=<id>",
+ "fetched": "2026-09-27",
+ "pro_table_source": "https://www.pdga.com/files/pdga_payout_calculator_2019.1.xlsx (sheet \"Paid places up to 33\", named ranges Paypro S3:AZ35, PaypctP O3:R402)",
+ "pro_curve_factors_by_places_paid": {
+  "1": [
+   1
+  ],
+  "2": [
+   0.625,
+   0.375
+  ],
+  "3": [
+   0.475,
+   0.3,
+   0.225
+  ],
+  "4": [
+   0.41,
+   0.26,
+   0.19,
+   0.14
+  ],
+  "5": [
+   0.36,
+   0.245,
+   0.17,
+   0.125,
+   0.1
+  ],
+  "6": [
+   0.33,
+   0.23,
+   0.155,
+   0.12,
+   0.095,
+   0.07
+  ],
+  "7": [
+   0.3,
+   0.21,
+   0.15,
+   0.11,
+   0.095,
+   0.075,
+   0.06
+  ],
+  "8": [
+   0.28,
+   0.19,
+   0.145,
+   0.115,
+   0.09,
+   0.07,
+   0.06,
+   0.05
+  ],
+  "9": [
+   0.268,
+   0.185,
+   0.14,
+   0.11,
+   0.085,
+   0.067,
+   0.055,
+   0.047,
+   0.043
+  ],
+  "10": [
+   0.26,
+   0.18,
+   0.13,
+   0.1,
+   0.081,
+   0.067,
+   0.055,
+   0.047,
+   0.042,
+   0.038
+  ],
+  "11": [
+   0.25,
+   0.165,
+   0.127,
+   0.098,
+   0.08,
+   0.065,
+   0.054,
+   0.047,
+   0.042,
+   0.038,
+   0.034
+  ],
+  "12": [
+   0.238,
+   0.16,
+   0.12,
+   0.095,
+   0.077,
+   0.064,
+   0.054,
+   0.047,
+   0.042,
+   0.038,
+   0.034,
+   0.031
+  ],
+  "13": [
+   0.232,
+   0.155,
+   0.115,
+   0.09,
+   0.075,
+   0.061,
+   0.052,
+   0.046,
+   0.042,
+   0.038,
+   0.034,
+   0.031,
+   0.029
+  ],
+  "14": [
+   0.225,
+   0.15,
+   0.11,
+   0.085,
+   0.071,
+   0.06,
+   0.052,
+   0.046,
+   0.042,
+   0.038,
+   0.034,
+   0.031,
+   0.029,
+   0.027
+  ],
+  "15": [
+   0.22,
+   0.145,
+   0.105,
+   0.084,
+   0.069,
+   0.058,
+   0.05,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.025
+  ],
+  "16": [
+   0.21,
+   0.14,
+   0.1,
+   0.083,
+   0.068,
+   0.057,
+   0.05,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.025,
+   0.023
+  ],
+  "17": [
+   0.2,
+   0.135,
+   0.097,
+   0.081,
+   0.067,
+   0.056,
+   0.05,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.025,
+   0.023,
+   0.022
+  ],
+  "18": [
+   0.19,
+   0.13,
+   0.095,
+   0.08,
+   0.065,
+   0.055,
+   0.05,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.025,
+   0.023,
+   0.022,
+   0.021
+  ],
+  "19": [
+   0.18,
+   0.125,
+   0.092,
+   0.078,
+   0.065,
+   0.055,
+   0.05,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.025,
+   0.023,
+   0.022,
+   0.021,
+   0.02
+  ],
+  "20": [
+   0.165,
+   0.118,
+   0.089,
+   0.076,
+   0.064,
+   0.054,
+   0.049,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021
+  ],
+  "21": [
+   0.152,
+   0.115,
+   0.087,
+   0.075,
+   0.063,
+   0.054,
+   0.049,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02
+  ],
+  "22": [
+   0.145,
+   0.112,
+   0.085,
+   0.072,
+   0.061,
+   0.053,
+   0.048,
+   0.045,
+   0.041,
+   0.037,
+   0.034,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019
+  ],
+  "23": [
+   0.142,
+   0.11,
+   0.084,
+   0.071,
+   0.06,
+   0.052,
+   0.046,
+   0.042,
+   0.039,
+   0.036,
+   0.033,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018
+  ],
+  "24": [
+   0.14,
+   0.107,
+   0.082,
+   0.066,
+   0.057,
+   0.051,
+   0.045,
+   0.042,
+   0.039,
+   0.036,
+   0.033,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017
+  ],
+  "25": [
+   0.137,
+   0.105,
+   0.078,
+   0.065,
+   0.056,
+   0.049,
+   0.045,
+   0.041,
+   0.038,
+   0.035,
+   0.033,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016
+  ],
+  "26": [
+   0.132,
+   0.1,
+   0.076,
+   0.064,
+   0.055,
+   0.048,
+   0.044,
+   0.041,
+   0.038,
+   0.035,
+   0.033,
+   0.031,
+   0.029,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016,
+   0.016
+  ],
+  "27": [
+   0.13,
+   0.098,
+   0.075,
+   0.063,
+   0.054,
+   0.047,
+   0.044,
+   0.04,
+   0.037,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016,
+   0.015,
+   0.015
+  ],
+  "28": [
+   0.127,
+   0.095,
+   0.073,
+   0.061,
+   0.052,
+   0.046,
+   0.043,
+   0.04,
+   0.037,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016,
+   0.015,
+   0.015,
+   0.014
+  ],
+  "29": [
+   0.125,
+   0.093,
+   0.071,
+   0.059,
+   0.05,
+   0.045,
+   0.042,
+   0.04,
+   0.037,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016,
+   0.015,
+   0.014,
+   0.014,
+   0.013
+  ],
+  "30": [
+   0.122,
+   0.09,
+   0.068,
+   0.056,
+   0.049,
+   0.045,
+   0.042,
+   0.04,
+   0.037,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016,
+   0.015,
+   0.014,
+   0.014,
+   0.013,
+   0.013
+  ],
+  "31": [
+   0.118,
+   0.087,
+   0.065,
+   0.055,
+   0.048,
+   0.045,
+   0.042,
+   0.04,
+   0.037,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.018,
+   0.017,
+   0.016,
+   0.015,
+   0.014,
+   0.013,
+   0.013,
+   0.013,
+   0.013
+  ],
+  "32": [
+   0.115,
+   0.085,
+   0.063,
+   0.053,
+   0.048,
+   0.045,
+   0.042,
+   0.039,
+   0.036,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.017,
+   0.017,
+   0.016,
+   0.015,
+   0.014,
+   0.013,
+   0.013,
+   0.013,
+   0.013,
+   0.012
+  ],
+  "33": [
+   0.112,
+   0.082,
+   0.058,
+   0.052,
+   0.048,
+   0.045,
+   0.042,
+   0.039,
+   0.036,
+   0.034,
+   0.032,
+   0.03,
+   0.028,
+   0.027,
+   0.026,
+   0.025,
+   0.024,
+   0.023,
+   0.022,
+   0.021,
+   0.02,
+   0.019,
+   0.017,
+   0.017,
+   0.016,
+   0.015,
+   0.014,
+   0.013,
+   0.013,
+   0.013,
+   0.013,
+   0.012,
+   0.012
+  ]
+ },
+ "places_paid_by_field": {
+  "1": {
+   "40": 1,
+   "45": 1,
+   "50": 1
+  },
+  "2": {
+   "40": 1,
+   "45": 1,
+   "50": 1
+  },
+  "3": {
+   "40": 2,
+   "45": 2,
+   "50": 2
+  },
+  "4": {
+   "40": 2,
+   "45": 2,
+   "50": 2
+  },
+  "5": {
+   "40": 2,
+   "45": 3,
+   "50": 3
+  },
+  "6": {
+   "40": 3,
+   "45": 3,
+   "50": 3
+  },
+  "7": {
+   "40": 3,
+   "45": 4,
+   "50": 4
+  },
+  "8": {
+   "40": 4,
+   "45": 4,
+   "50": 4
+  },
+  "9": {
+   "40": 4,
+   "45": 5,
+   "50": 5
+  },
+  "10": {
+   "40": 4,
+   "45": 5,
+   "50": 5
+  },
+  "11": {
+   "40": 5,
+   "45": 5,
+   "50": 6
+  },
+  "12": {
+   "40": 5,
+   "45": 6,
+   "50": 6
+  },
+  "13": {
+   "40": 6,
+   "45": 6,
+   "50": 7
+  },
+  "14": {
+   "40": 6,
+   "45": 7,
+   "50": 7
+  },
+  "15": {
+   "40": 6,
+   "45": 7,
+   "50": 8
+  },
+  "16": {
+   "40": 7,
+   "45": 8,
+   "50": 8
+  },
+  "17": {
+   "40": 7,
+   "45": 8,
+   "50": 9
+  },
+  "18": {
+   "40": 8,
+   "45": 9,
+   "50": 9
+  },
+  "19": {
+   "40": 8,
+   "45": 9,
+   "50": 10
+  },
+  "20": {
+   "40": 8,
+   "45": 9,
+   "50": 10
+  },
+  "21": {
+   "40": 9,
+   "45": 10,
+   "50": 11
+  },
+  "22": {
+   "40": 9,
+   "45": 10,
+   "50": 11
+  },
+  "23": {
+   "40": 10,
+   "45": 11,
+   "50": 12
+  },
+  "24": {
+   "40": 10,
+   "45": 11,
+   "50": 12
+  },
+  "25": {
+   "40": 10,
+   "45": 12,
+   "50": 13
+  },
+  "26": {
+   "40": 11,
+   "45": 12,
+   "50": 13
+  },
+  "27": {
+   "40": 11,
+   "45": 13,
+   "50": 14
+  },
+  "28": {
+   "40": 12,
+   "45": 13,
+   "50": 14
+  },
+  "29": {
+   "40": 12,
+   "45": 14,
+   "50": 15
+  },
+  "30": {
+   "40": 12,
+   "45": 14,
+   "50": 15
+  },
+  "31": {
+   "40": 13,
+   "45": 14,
+   "50": 16
+  },
+  "32": {
+   "40": 13,
+   "45": 15,
+   "50": 16
+  },
+  "33": {
+   "40": 14,
+   "45": 15,
+   "50": 17
+  },
+  "34": {
+   "40": 14,
+   "45": 16,
+   "50": 17
+  },
+  "35": {
+   "40": 14,
+   "45": 16,
+   "50": 18
+  },
+  "36": {
+   "40": 15,
+   "45": 17,
+   "50": 18
+  },
+  "37": {
+   "40": 15,
+   "45": 17,
+   "50": 19
+  },
+  "38": {
+   "40": 16,
+   "45": 18,
+   "50": 19
+  },
+  "39": {
+   "40": 16,
+   "45": 18,
+   "50": 20
+  },
+  "40": {
+   "40": 16,
+   "45": 18,
+   "50": 20
+  },
+  "41": {
+   "40": 17,
+   "45": 19,
+   "50": 21
+  },
+  "42": {
+   "40": 17,
+   "45": 19,
+   "50": 21
+  },
+  "43": {
+   "40": 18,
+   "45": 20,
+   "50": 22
+  },
+  "44": {
+   "40": 18,
+   "45": 20,
+   "50": 22
+  },
+  "45": {
+   "40": 18,
+   "45": 21,
+   "50": 23
+  },
+  "46": {
+   "40": 19,
+   "45": 21,
+   "50": 23
+  },
+  "47": {
+   "40": 19,
+   "45": 22,
+   "50": 24
+  },
+  "48": {
+   "40": 20,
+   "45": 22,
+   "50": 24
+  },
+  "49": {
+   "40": 20,
+   "45": 23,
+   "50": 25
+  },
+  "50": {
+   "40": 20,
+   "45": 23,
+   "50": 25
+  },
+  "51": {
+   "40": 21,
+   "45": 23,
+   "50": 26
+  },
+  "52": {
+   "40": 21,
+   "45": 24,
+   "50": 26
+  },
+  "53": {
+   "40": 22,
+   "45": 24,
+   "50": 27
+  },
+  "54": {
+   "40": 22,
+   "45": 25,
+   "50": 27
+  },
+  "55": {
+   "40": 22,
+   "45": 25,
+   "50": 28
+  },
+  "56": {
+   "40": 23,
+   "45": 26,
+   "50": 28
+  },
+  "57": {
+   "40": 23,
+   "45": 26,
+   "50": 29
+  },
+  "58": {
+   "40": 24,
+   "45": 27,
+   "50": 29
+  },
+  "59": {
+   "40": 24,
+   "45": 27,
+   "50": 30
+  },
+  "60": {
+   "40": 24,
+   "45": 27,
+   "50": 30
+  },
+  "61": {
+   "40": 25,
+   "45": 28,
+   "50": 31
+  },
+  "62": {
+   "40": 25,
+   "45": 28,
+   "50": 31
+  },
+  "63": {
+   "40": 26,
+   "45": 29,
+   "50": 32
+  },
+  "64": {
+   "40": 26,
+   "45": 29,
+   "50": 32
+  },
+  "65": {
+   "40": 26,
+   "45": 30,
+   "50": 33
+  },
+  "66": {
+   "40": 27,
+   "45": 30,
+   "50": 33
+  },
+  "67": {
+   "40": 27,
+   "45": 31,
+   "50": 34
+  },
+  "68": {
+   "40": 28,
+   "45": 31,
+   "50": 34
+  },
+  "69": {
+   "40": 28,
+   "45": 32,
+   "50": 35
+  },
+  "70": {
+   "40": 28,
+   "45": 32,
+   "50": 35
+  },
+  "71": {
+   "40": 29,
+   "45": 32,
+   "50": 36
+  },
+  "72": {
+   "40": 29,
+   "45": 33,
+   "50": 36
+  },
+  "73": {
+   "40": 30,
+   "45": 33,
+   "50": 37
+  },
+  "74": {
+   "40": 30,
+   "45": 34,
+   "50": 37
+  },
+  "75": {
+   "40": 30,
+   "45": 34,
+   "50": 38
+  },
+  "76": {
+   "40": 31,
+   "45": 35,
+   "50": 38
+  },
+  "77": {
+   "40": 31,
+   "45": 35,
+   "50": 39
+  },
+  "78": {
+   "40": 32,
+   "45": 36,
+   "50": 39
+  },
+  "79": {
+   "40": 32,
+   "45": 36,
+   "50": 40
+  },
+  "80": {
+   "40": 32,
+   "45": 36,
+   "50": 40
+  },
+  "81": {
+   "40": 33,
+   "45": 37,
+   "50": 41
+  },
+  "82": {
+   "40": 33,
+   "45": 37,
+   "50": 41
+  },
+  "83": {
+   "40": 34,
+   "45": 38,
+   "50": 42
+  },
+  "84": {
+   "40": 34,
+   "45": 38,
+   "50": 42
+  },
+  "85": {
+   "40": 34,
+   "45": 39,
+   "50": 43
+  },
+  "86": {
+   "40": 35,
+   "45": 39,
+   "50": 43
+  },
+  "87": {
+   "40": 35,
+   "45": 40,
+   "50": 44
+  },
+  "88": {
+   "40": 36,
+   "45": 40,
+   "50": 44
+  },
+  "89": {
+   "40": 36,
+   "45": 41,
+   "50": 45
+  },
+  "90": {
+   "40": 36,
+   "45": 41,
+   "50": 45
+  },
+  "91": {
+   "40": 37,
+   "45": 41,
+   "50": 46
+  },
+  "92": {
+   "40": 37,
+   "45": 42,
+   "50": 46
+  },
+  "93": {
+   "40": 38,
+   "45": 42,
+   "50": 47
+  },
+  "94": {
+   "40": 38,
+   "45": 43,
+   "50": 47
+  },
+  "95": {
+   "40": 38,
+   "45": 43,
+   "50": 48
+  },
+  "96": {
+   "40": 39,
+   "45": 44,
+   "50": 48
+  },
+  "97": {
+   "40": 39,
+   "45": 44,
+   "50": 49
+  },
+  "98": {
+   "40": 40,
+   "45": 45,
+   "50": 49
+  },
+  "99": {
+   "40": 40,
+   "45": 45,
+   "50": 50
+  },
+  "100": {
+   "40": 40,
+   "45": 45,
+   "50": 50
+  }
+ },
+ "divisions": [
+  {
+   "tid": 1001,
+   "div": "MPO",
+   "n": 9,
+   "purse": 405,
+   "fees": 405,
+   "pct": 104,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    166,
+    105,
+    77,
+    57
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.3
+   }
+  },
+  {
+   "tid": 1001,
+   "div": "MP40",
+   "n": 3,
+   "purse": 135,
+   "fees": 135,
+   "pct": 113,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    84,
+    51
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.38
+   }
+  },
+  {
+   "tid": 1002,
+   "div": "MPO",
+   "n": 27,
+   "purse": 3171,
+   "fees": 2619,
+   "pct": 121,
+   "cash": 11,
+   "currency": "USD",
+   "payouts": [
+    793,
+    523,
+    403,
+    311,
+    254,
+    206,
+    171,
+    149,
+    133,
+    121,
+    107
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.81
+   }
+  },
+  {
+   "tid": 1002,
+   "div": "FPO",
+   "n": 3,
+   "purse": 352,
+   "fees": 291,
+   "pct": 121,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    220,
+    132
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1002,
+   "div": "MP50",
+   "n": 13,
+   "purse": 1526,
+   "fees": 1261,
+   "pct": 121,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    504,
+    351,
+    236,
+    183,
+    145,
+    107
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.53
+   }
+  },
+  {
+   "tid": 1002,
+   "div": "MP60",
+   "n": 6,
+   "purse": 704,
+   "fees": 582,
+   "pct": 121,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    334,
+    212,
+    158
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.8
+   }
+  },
+  {
+   "tid": 1003,
+   "div": "MPO",
+   "n": 8,
+   "purse": 252,
+   "fees": 296,
+   "pct": 85,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    103,
+    66,
+    48,
+    35
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.48
+   }
+  },
+  {
+   "tid": 1004,
+   "div": "MPO",
+   "n": 15,
+   "purse": 800,
+   "fees": 600,
+   "pct": 207,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    264,
+    184,
+    124,
+    96,
+    76,
+    56
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1005,
+   "div": "FPO",
+   "n": 2,
+   "purse": 86,
+   "fees": 86,
+   "pct": 165,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    86
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1005,
+   "div": "FP50",
+   "n": 1,
+   "purse": 43,
+   "fees": 43,
+   "pct": 188,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    43
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1005,
+   "div": "FP60",
+   "n": 1,
+   "purse": 43,
+   "fees": 43,
+   "pct": 188,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    43
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1006,
+   "div": "MPO",
+   "n": 15,
+   "purse": 2142,
+   "fees": 1710,
+   "pct": 125,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    708,
+    492,
+    332,
+    257,
+    203,
+    150
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.14
+   }
+  },
+  {
+   "tid": 1006,
+   "div": "MP40",
+   "n": 9,
+   "purse": 1285,
+   "fees": 1026,
+   "pct": 125,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    527,
+    334,
+    244,
+    180
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.15
+   }
+  },
+  {
+   "tid": 1006,
+   "div": "FP40",
+   "n": 1,
+   "purse": 147,
+   "fees": 117,
+   "pct": 126,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    147
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1006,
+   "div": "FP50",
+   "n": 1,
+   "purse": 143,
+   "fees": 114,
+   "pct": 125,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    143
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1007,
+   "div": "FPO",
+   "n": 1,
+   "purse": 35,
+   "fees": 35,
+   "pct": 129,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    35
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1007,
+   "div": "MP40",
+   "n": 7,
+   "purse": 245,
+   "fees": 245,
+   "pct": 104,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    115,
+    75,
+    55
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.5
+   }
+  },
+  {
+   "tid": 1007,
+   "div": "FP40",
+   "n": 1,
+   "purse": 35,
+   "fees": 35,
+   "pct": 129,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    35
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1008,
+   "div": "MPO",
+   "n": 9,
+   "purse": 410,
+   "fees": 450,
+   "pct": 104,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    170,
+    105,
+    80,
+    55
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.4
+   }
+  },
+  {
+   "tid": 1008,
+   "div": "FPO",
+   "n": 1,
+   "purse": 20,
+   "fees": 50,
+   "pct": 160,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    20
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1008,
+   "div": "MP40",
+   "n": 8,
+   "purse": 370,
+   "fees": 400,
+   "pct": 100,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    155,
+    95,
+    70,
+    50
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 3.3
+   }
+  },
+  {
+   "tid": 1009,
+   "div": "MPO",
+   "n": 18,
+   "purse": 1315,
+   "fees": 1314,
+   "pct": 101,
+   "cash": 8,
+   "currency": "USD",
+   "payouts": [
+    375,
+    250,
+    200,
+    135,
+    115,
+    90,
+    75,
+    75
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 16.22
+   }
+  },
+  {
+   "tid": 1009,
+   "div": "MP40",
+   "n": 6,
+   "purse": 440,
+   "fees": 438,
+   "pct": 104,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    210,
+    130,
+    100
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.0
+   }
+  },
+  {
+   "tid": 1009,
+   "div": "MP50",
+   "n": 6,
+   "purse": 438,
+   "fees": 438,
+   "pct": 104,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    210,
+    125,
+    103
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 6.4
+   }
+  },
+  {
+   "tid": 1009,
+   "div": "MP60",
+   "n": 4,
+   "purse": 293,
+   "fees": 292,
+   "pct": 105,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    185,
+    108
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.88
+   }
+  },
+  {
+   "tid": 1010,
+   "div": "MPO",
+   "n": 4,
+   "purse": 136,
+   "fees": 160,
+   "pct": 85,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    85,
+    51
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1011,
+   "div": "MPO",
+   "n": 7,
+   "purse": 706,
+   "fees": 378,
+   "pct": 187,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    336,
+    211,
+    159
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.8
+   }
+  },
+  {
+   "tid": 1011,
+   "div": "MP40",
+   "n": 6,
+   "purse": 605,
+   "fees": 324,
+   "pct": 187,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    288,
+    181,
+    136
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.62
+   }
+  },
+  {
+   "tid": 1011,
+   "div": "MP50",
+   "n": 2,
+   "purse": 202,
+   "fees": 108,
+   "pct": 187,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    202
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1011,
+   "div": "MP70",
+   "n": 1,
+   "purse": 101,
+   "fees": 54,
+   "pct": 187,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    101
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1012,
+   "div": "MPO",
+   "n": 13,
+   "purse": 832,
+   "fees": 832,
+   "pct": 100,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    275,
+    191,
+    129,
+    100,
+    79,
+    58
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.44
+   }
+  },
+  {
+   "tid": 1012,
+   "div": "MP40",
+   "n": 11,
+   "purse": 704,
+   "fees": 704,
+   "pct": 100,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    254,
+    172,
+    120,
+    88,
+    70
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.56
+   }
+  },
+  {
+   "tid": 1012,
+   "div": "MP50",
+   "n": 7,
+   "purse": 448,
+   "fees": 448,
+   "pct": 100,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    213,
+    134,
+    101
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.4
+   }
+  },
+  {
+   "tid": 1013,
+   "div": "MP40",
+   "n": 20,
+   "purse": 3710,
+   "fees": 2660,
+   "pct": 140,
+   "cash": 8,
+   "currency": "USD",
+   "payouts": [
+    1040,
+    705,
+    540,
+    425,
+    335,
+    260,
+    225,
+    180
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.5
+   }
+  },
+  {
+   "tid": 1013,
+   "div": "MP50",
+   "n": 23,
+   "purse": 4270,
+   "fees": 3059,
+   "pct": 140,
+   "cash": 10,
+   "currency": "USD",
+   "payouts": [
+    1115,
+    770,
+    555,
+    425,
+    345,
+    285,
+    235,
+    200,
+    180,
+    160
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 4.8
+   }
+  },
+  {
+   "tid": 1013,
+   "div": "MP60",
+   "n": 14,
+   "purse": 2595,
+   "fees": 1862,
+   "pct": 141,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    860,
+    600,
+    405,
+    310,
+    245,
+    175
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 6.65
+   }
+  },
+  {
+   "tid": 1014,
+   "div": "MPO",
+   "n": 15,
+   "purse": 2028,
+   "fees": 1050,
+   "pct": 194,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    670,
+    467,
+    315,
+    243,
+    193,
+    140
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.96
+   }
+  },
+  {
+   "tid": 1014,
+   "div": "FPO",
+   "n": 1,
+   "purse": 135,
+   "fees": 70,
+   "pct": 207,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    135
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1014,
+   "div": "MP40",
+   "n": 8,
+   "purse": 1082,
+   "fees": 560,
+   "pct": 195,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    444,
+    282,
+    205,
+    151
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.68
+   }
+  },
+  {
+   "tid": 1014,
+   "div": "MP50",
+   "n": 14,
+   "purse": 1893,
+   "fees": 980,
+   "pct": 194,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    624,
+    435,
+    294,
+    228,
+    180,
+    132
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.84
+   }
+  },
+  {
+   "tid": 1014,
+   "div": "MP60",
+   "n": 8,
+   "purse": 1082,
+   "fees": 560,
+   "pct": 195,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    444,
+    282,
+    205,
+    151
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.68
+   }
+  },
+  {
+   "tid": 1015,
+   "div": "MPO",
+   "n": 8,
+   "purse": 1276,
+   "fees": 608,
+   "pct": 210,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    523,
+    332,
+    243,
+    178
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.64
+   }
+  },
+  {
+   "tid": 1015,
+   "div": "FPO",
+   "n": 1,
+   "purse": 159,
+   "fees": 76,
+   "pct": 209,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    159
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1015,
+   "div": "MP40",
+   "n": 1,
+   "purse": 159,
+   "fees": 76,
+   "pct": 209,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    159
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1015,
+   "div": "MP50",
+   "n": 1,
+   "purse": 159,
+   "fees": 76,
+   "pct": 209,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    159
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1015,
+   "div": "MP60",
+   "n": 1,
+   "purse": 159,
+   "fees": 76,
+   "pct": 209,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    159
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1016,
+   "div": "MPO",
+   "n": 49,
+   "purse": 7322,
+   "fees": 4998,
+   "pct": 148,
+   "cash": 20,
+   "currency": "USD",
+   "payouts": [
+    1200,
+    900,
+    660,
+    550,
+    450,
+    400,
+    360,
+    330,
+    300,
+    275,
+    250,
+    224,
+    212,
+    200,
+    190,
+    182,
+    176,
+    168,
+    160,
+    135
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 36.0
+   }
+  },
+  {
+   "tid": 1016,
+   "div": "FPO",
+   "n": 7,
+   "purse": 790,
+   "fees": 539,
+   "pct": 152,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    375,
+    240,
+    175
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 3.0
+   }
+  },
+  {
+   "tid": 1016,
+   "div": "MP40",
+   "n": 11,
+   "purse": 1241,
+   "fees": 847,
+   "pct": 150,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    450,
+    310,
+    211,
+    160,
+    110
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 14.1
+   }
+  },
+  {
+   "tid": 1016,
+   "div": "MP60",
+   "n": 1,
+   "purse": 98,
+   "fees": 67,
+   "pct": 146,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    98
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1017,
+   "div": "MPO",
+   "n": 31,
+   "purse": 4550,
+   "fees": 2728,
+   "pct": 168,
+   "cash": 13,
+   "currency": "USD",
+   "payouts": [
+    1060,
+    705,
+    525,
+    410,
+    340,
+    275,
+    235,
+    210,
+    190,
+    175,
+    155,
+    140,
+    130
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 4.4
+   }
+  },
+  {
+   "tid": 1017,
+   "div": "FPO",
+   "n": 7,
+   "purse": 1025,
+   "fees": 616,
+   "pct": 171,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    490,
+    310,
+    225
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.62
+   }
+  },
+  {
+   "tid": 1017,
+   "div": "MP40",
+   "n": 6,
+   "purse": 880,
+   "fees": 528,
+   "pct": 172,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    420,
+    265,
+    195
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 3.0
+   }
+  },
+  {
+   "tid": 1017,
+   "div": "MP50",
+   "n": 7,
+   "purse": 1025,
+   "fees": 616,
+   "pct": 171,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    490,
+    310,
+    225
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.62
+   }
+  },
+  {
+   "tid": 1018,
+   "div": "MPO",
+   "n": 4,
+   "purse": 288,
+   "fees": 288,
+   "pct": 100,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    180,
+    108
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1018,
+   "div": "MP60",
+   "n": 2,
+   "purse": 144,
+   "fees": 144,
+   "pct": 100,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    144
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1019,
+   "div": "MPO",
+   "n": 31,
+   "purse": 3542,
+   "fees": 2821,
+   "pct": 130,
+   "cash": 13,
+   "currency": "USD",
+   "payouts": [
+    822,
+    549,
+    407,
+    319,
+    267,
+    216,
+    184,
+    163,
+    149,
+    135,
+    120,
+    110,
+    101
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.72
+   }
+  },
+  {
+   "tid": 1019,
+   "div": "MP40",
+   "n": 12,
+   "purse": 1371,
+   "fees": 1092,
+   "pct": 128,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    493,
+    336,
+    234,
+    172,
+    136
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.1
+   }
+  },
+  {
+   "tid": 1020,
+   "div": "MPO",
+   "n": 20,
+   "purse": 300,
+   "fees": 1000,
+   "pct": 30,
+   "cash": 3,
+   "currency": "GBP",
+   "payouts": [
+    145,
+    90,
+    65
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.5
+   }
+  },
+  {
+   "tid": 1020,
+   "div": "FPO",
+   "n": 1,
+   "purse": 15,
+   "fees": 50,
+   "pct": 30,
+   "cash": 1,
+   "currency": "GBP",
+   "payouts": [
+    15
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1020,
+   "div": "MP40",
+   "n": 5,
+   "purse": 75,
+   "fees": 250,
+   "pct": 30,
+   "cash": 1,
+   "currency": "GBP",
+   "payouts": [
+    75
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1020,
+   "div": "FP40",
+   "n": 2,
+   "purse": 30,
+   "fees": 100,
+   "pct": 30,
+   "cash": 1,
+   "currency": "GBP",
+   "payouts": [
+    30
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1021,
+   "div": "MPO",
+   "n": 20,
+   "purse": 2684,
+   "fees": 1220,
+   "pct": 249,
+   "cash": 8,
+   "currency": "USD",
+   "payouts": [
+    751,
+    511,
+    389,
+    308,
+    242,
+    188,
+    161,
+    134
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.04
+   }
+  },
+  {
+   "tid": 1021,
+   "div": "MP40",
+   "n": 13,
+   "purse": 1744,
+   "fees": 793,
+   "pct": 255,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    576,
+    401,
+    271,
+    210,
+    166,
+    120
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.08
+   }
+  },
+  {
+   "tid": 1021,
+   "div": "MP55",
+   "n": 8,
+   "purse": 1073,
+   "fees": 488,
+   "pct": 257,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    441,
+    279,
+    204,
+    149
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.22
+   }
+  },
+  {
+   "tid": 1022,
+   "div": "MPO",
+   "n": 32,
+   "purse": 7330,
+   "fees": 4640,
+   "pct": 163,
+   "cash": 13,
+   "currency": "USD",
+   "payouts": [
+    1700,
+    1135,
+    845,
+    660,
+    550,
+    445,
+    380,
+    335,
+    310,
+    280,
+    250,
+    225,
+    215
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.43
+   }
+  },
+  {
+   "tid": 1022,
+   "div": "FPO",
+   "n": 3,
+   "purse": 785,
+   "fees": 285,
+   "pct": 298,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    490,
+    295
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.62
+   }
+  },
+  {
+   "tid": 1022,
+   "div": "MP40",
+   "n": 22,
+   "purse": 4140,
+   "fees": 2640,
+   "pct": 163,
+   "cash": 9,
+   "currency": "USD",
+   "payouts": [
+    1110,
+    765,
+    580,
+    455,
+    350,
+    280,
+    230,
+    195,
+    175
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 3.02
+   }
+  },
+  {
+   "tid": 1022,
+   "div": "MP50",
+   "n": 19,
+   "purse": 3580,
+   "fees": 2280,
+   "pct": 163,
+   "cash": 8,
+   "currency": "USD",
+   "payouts": [
+    1005,
+    680,
+    520,
+    410,
+    320,
+    250,
+    215,
+    180
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.6
+   }
+  },
+  {
+   "tid": 1022,
+   "div": "MP60",
+   "n": 7,
+   "purse": 1425,
+   "fees": 840,
+   "pct": 180,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    675,
+    430,
+    320
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.5
+   }
+  },
+  {
+   "tid": 1023,
+   "div": "MPO",
+   "n": 10,
+   "purse": 561,
+   "fees": 540,
+   "pct": 104,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    230,
+    145,
+    107,
+    79
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.86
+   }
+  },
+  {
+   "tid": 1023,
+   "div": "MP40",
+   "n": 2,
+   "purse": 112,
+   "fees": 108,
+   "pct": 104,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    112
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1024,
+   "div": "MPO",
+   "n": 8,
+   "purse": 408,
+   "fees": 408,
+   "pct": 100,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    167,
+    106,
+    78,
+    57
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.48
+   }
+  },
+  {
+   "tid": 1024,
+   "div": "MP40",
+   "n": 6,
+   "purse": 306,
+   "fees": 306,
+   "pct": 100,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    145,
+    92,
+    69
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.35
+   }
+  },
+  {
+   "tid": 1025,
+   "div": "MPO",
+   "n": 7,
+   "purse": 420,
+   "fees": 420,
+   "pct": 167,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    200,
+    126,
+    94
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1025,
+   "div": "MP40",
+   "n": 4,
+   "purse": 240,
+   "fees": 240,
+   "pct": 174,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    150,
+    90
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1026,
+   "div": "MPO",
+   "n": 11,
+   "purse": 935,
+   "fees": 715,
+   "pct": 166,
+   "cash": 5,
+   "currency": "CAD",
+   "payouts": [
+    335,
+    230,
+    160,
+    115,
+    95
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.88
+   }
+  },
+  {
+   "tid": 1026,
+   "div": "MP40",
+   "n": 5,
+   "purse": 425,
+   "fees": 325,
+   "pct": 171,
+   "cash": 2,
+   "currency": "CAD",
+   "payouts": [
+    265,
+    160
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.62
+   }
+  },
+  {
+   "tid": 1026,
+   "div": "FP40",
+   "n": 1,
+   "purse": 85,
+   "fees": 65,
+   "pct": 208,
+   "cash": 1,
+   "currency": "CAD",
+   "payouts": [
+    85
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1026,
+   "div": "MP50",
+   "n": 8,
+   "purse": 680,
+   "fees": 520,
+   "pct": 167,
+   "cash": 4,
+   "currency": "CAD",
+   "payouts": [
+    280,
+    175,
+    130,
+    95
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.8
+   }
+  },
+  {
+   "tid": 1027,
+   "div": "MPO",
+   "n": 3,
+   "purse": 125,
+   "fees": 147,
+   "pct": 85,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    80,
+    45
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.88
+   }
+  },
+  {
+   "tid": 1027,
+   "div": "MP40",
+   "n": 7,
+   "purse": 290,
+   "fees": 343,
+   "pct": 85,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    140,
+    90,
+    60
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.25
+   }
+  },
+  {
+   "tid": 1028,
+   "div": "MPO",
+   "n": 6,
+   "purse": 600,
+   "fees": 348,
+   "pct": 190,
+   "cash": 2,
+   "currency": "AUD",
+   "payouts": [
+    375,
+    225
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1029,
+   "div": "MPO",
+   "n": 16,
+   "purse": 480,
+   "fees": 480,
+   "pct": 101,
+   "cash": 7,
+   "currency": "USD",
+   "payouts": [
+    144,
+    101,
+    72,
+    53,
+    46,
+    36,
+    28
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.8
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "MP40",
+   "n": 15,
+   "purse": 450,
+   "fees": 900,
+   "pct": 50,
+   "cash": 4,
+   "currency": "EUR",
+   "payouts": [
+    185,
+    117,
+    86,
+    62
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.0
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "FP40",
+   "n": 1,
+   "purse": 30,
+   "fees": 60,
+   "pct": 50,
+   "cash": 1,
+   "currency": "EUR",
+   "payouts": [
+    30
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "MP50",
+   "n": 19,
+   "purse": 570,
+   "fees": 1140,
+   "pct": 50,
+   "cash": 5,
+   "currency": "EUR",
+   "payouts": [
+    205,
+    140,
+    97,
+    71,
+    57
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.35
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "FP50",
+   "n": 6,
+   "purse": 180,
+   "fees": 360,
+   "pct": 50,
+   "cash": 2,
+   "currency": "EUR",
+   "payouts": [
+    113,
+    67
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "MP60",
+   "n": 5,
+   "purse": 150,
+   "fees": 300,
+   "pct": 50,
+   "cash": 2,
+   "currency": "EUR",
+   "payouts": [
+    94,
+    56
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.25
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "FP60",
+   "n": 1,
+   "purse": 30,
+   "fees": 60,
+   "pct": 50,
+   "cash": 1,
+   "currency": "EUR",
+   "payouts": [
+    30
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "MP65",
+   "n": 1,
+   "purse": 30,
+   "fees": 60,
+   "pct": 50,
+   "cash": 1,
+   "currency": "EUR",
+   "payouts": [
+    30
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1030,
+   "div": "MP70",
+   "n": 2,
+   "purse": 60,
+   "fees": 120,
+   "pct": 50,
+   "cash": 1,
+   "currency": "EUR",
+   "payouts": [
+    60
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1031,
+   "div": "MPO",
+   "n": 13,
+   "purse": 390,
+   "fees": 390,
+   "pct": 100,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    129,
+    90,
+    60,
+    47,
+    37,
+    27
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.45
+   }
+  },
+  {
+   "tid": 1032,
+   "div": "MPO",
+   "n": 8,
+   "purse": 965,
+   "fees": 632,
+   "pct": 153,
+   "cash": 4,
+   "currency": "CAD",
+   "payouts": [
+    395,
+    250,
+    185,
+    135
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.65
+   }
+  },
+  {
+   "tid": 1032,
+   "div": "FPO",
+   "n": 4,
+   "purse": 480,
+   "fees": 316,
+   "pct": 153,
+   "cash": 2,
+   "currency": "CAD",
+   "payouts": [
+    305,
+    175
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.0
+   }
+  },
+  {
+   "tid": 1033,
+   "div": "MPO",
+   "n": 15,
+   "purse": 705,
+   "fees": 705,
+   "pct": 108,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    250,
+    150,
+    100,
+    90,
+    65,
+    50
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 17.35
+   }
+  },
+  {
+   "tid": 1033,
+   "div": "FPO",
+   "n": 1,
+   "purse": 45,
+   "fees": 47,
+   "pct": 202,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    45
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1033,
+   "div": "MP40",
+   "n": 14,
+   "purse": 655,
+   "fees": 658,
+   "pct": 106,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    220,
+    150,
+    100,
+    80,
+    65,
+    40
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.85
+   }
+  },
+  {
+   "tid": 1034,
+   "div": "MPO",
+   "n": 8,
+   "purse": 176,
+   "fees": 176,
+   "pct": 100,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    72,
+    46,
+    33,
+    25
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.44
+   }
+  },
+  {
+   "tid": 1034,
+   "div": "MP40",
+   "n": 3,
+   "purse": 66,
+   "fees": 66,
+   "pct": 100,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    41,
+    25
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.25
+   }
+  },
+  {
+   "tid": 1035,
+   "div": "MPO",
+   "n": 12,
+   "purse": 600,
+   "fees": 600,
+   "pct": 102,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    216,
+    147,
+    102,
+    75,
+    60
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1035,
+   "div": "MP40",
+   "n": 10,
+   "purse": 500,
+   "fees": 500,
+   "pct": 102,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    205,
+    130,
+    95,
+    70
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1035,
+   "div": "MP50",
+   "n": 1,
+   "purse": 50,
+   "fees": 50,
+   "pct": 120,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    50
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1036,
+   "div": "MPO",
+   "n": 3,
+   "purse": 171,
+   "fees": 171,
+   "pct": 100,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    107,
+    64
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.12
+   }
+  },
+  {
+   "tid": 1037,
+   "div": "MPO",
+   "n": 20,
+   "purse": 1460,
+   "fees": 960,
+   "pct": 152,
+   "cash": 10,
+   "currency": "USD",
+   "payouts": [
+    380,
+    263,
+    190,
+    146,
+    119,
+    98,
+    81,
+    69,
+    61,
+    53
+   ],
+   "cashline_matches": [
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.48
+   }
+  },
+  {
+   "tid": 1037,
+   "div": "FPO",
+   "n": 3,
+   "purse": 219,
+   "fees": 144,
+   "pct": 152,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    137,
+    82
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.12
+   }
+  },
+  {
+   "tid": 1037,
+   "div": "MP40",
+   "n": 12,
+   "purse": 876,
+   "fees": 576,
+   "pct": 152,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    289,
+    201,
+    136,
+    105,
+    84,
+    61
+   ],
+   "cashline_matches": [
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.78
+   }
+  },
+  {
+   "tid": 1037,
+   "div": "MP50",
+   "n": 2,
+   "purse": 146,
+   "fees": 96,
+   "pct": 152,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    146
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1037,
+   "div": "FP50",
+   "n": 1,
+   "purse": 73,
+   "fees": 48,
+   "pct": 152,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    73
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1037,
+   "div": "MP60",
+   "n": 4,
+   "purse": 292,
+   "fees": 192,
+   "pct": 152,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    183,
+    109
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1038,
+   "div": "MPO",
+   "n": 15,
+   "purse": 2384,
+   "fees": 1350,
+   "pct": 177,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    787,
+    549,
+    369,
+    287,
+    226,
+    166
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.92
+   }
+  },
+  {
+   "tid": 1038,
+   "div": "MP40",
+   "n": 9,
+   "purse": 1431,
+   "fees": 810,
+   "pct": 177,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    587,
+    373,
+    272,
+    199
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.34
+   }
+  },
+  {
+   "tid": 1038,
+   "div": "FP40",
+   "n": 1,
+   "purse": 159,
+   "fees": 90,
+   "pct": 177,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    159
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1038,
+   "div": "MP50",
+   "n": 4,
+   "purse": 636,
+   "fees": 360,
+   "pct": 177,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    397,
+    239
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1039,
+   "div": "MPO",
+   "n": 9,
+   "purse": 90,
+   "fees": 90,
+   "pct": 100,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    35,
+    25,
+    15,
+    15
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.4
+   }
+  },
+  {
+   "tid": 1039,
+   "div": "MP40",
+   "n": 3,
+   "purse": 30,
+   "fees": 30,
+   "pct": 100,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    20,
+    10
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.25
+   }
+  },
+  {
+   "tid": 1040,
+   "div": "MPO",
+   "n": 8,
+   "purse": 747,
+   "fees": 448,
+   "pct": 167,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    307,
+    194,
+    142,
+    104
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.73
+   }
+  },
+  {
+   "tid": 1040,
+   "div": "FPO",
+   "n": 4,
+   "purse": 374,
+   "fees": 224,
+   "pct": 167,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    234,
+    140
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.25
+   }
+  },
+  {
+   "tid": 1040,
+   "div": "MP40",
+   "n": 7,
+   "purse": 655,
+   "fees": 392,
+   "pct": 167,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    311,
+    197,
+    147
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1040,
+   "div": "MP60",
+   "n": 1,
+   "purse": 94,
+   "fees": 56,
+   "pct": 168,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    94
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1041,
+   "div": "MP50",
+   "n": 2,
+   "purse": 40,
+   "fees": 40,
+   "pct": 100,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    40
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1042,
+   "div": "MPO",
+   "n": 5,
+   "purse": 439,
+   "fees": 225,
+   "pct": 195,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    275,
+    164
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.62
+   }
+  },
+  {
+   "tid": 1042,
+   "div": "MP40",
+   "n": 2,
+   "purse": 176,
+   "fees": 90,
+   "pct": 196,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    176
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1043,
+   "div": "MPO",
+   "n": 8,
+   "purse": 390,
+   "fees": 240,
+   "pct": 163,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    160,
+    100,
+    75,
+    55
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.4
+   }
+  },
+  {
+   "tid": 1044,
+   "div": "MPO",
+   "n": 8,
+   "purse": 375,
+   "fees": 376,
+   "pct": 106,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    155,
+    100,
+    70,
+    50
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.5
+   }
+  },
+  {
+   "tid": 1044,
+   "div": "MP40",
+   "n": 5,
+   "purse": 235,
+   "fees": 235,
+   "pct": 111,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    145,
+    90
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.88
+   }
+  },
+  {
+   "tid": 1044,
+   "div": "MP50",
+   "n": 1,
+   "purse": 45,
+   "fees": 47,
+   "pct": 96,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    45
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1044,
+   "div": "MP60",
+   "n": 3,
+   "purse": 140,
+   "fees": 141,
+   "pct": 117,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    90,
+    50
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.5
+   }
+  },
+  {
+   "tid": 1045,
+   "div": "MPO",
+   "n": 9,
+   "purse": 450,
+   "fees": 450,
+   "pct": 100,
+   "cash": 3,
+   "currency": "SEK",
+   "payouts": [
+    215,
+    135,
+    100
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.25
+   }
+  },
+  {
+   "tid": 1046,
+   "div": "MPO",
+   "n": 14,
+   "purse": 910,
+   "fees": 910,
+   "pct": 100,
+   "cash": 4,
+   "currency": "SEK",
+   "payouts": [
+    375,
+    235,
+    175,
+    125
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.4
+   }
+  },
+  {
+   "tid": 1047,
+   "div": "MPO",
+   "n": 23,
+   "purse": 250,
+   "fees": 575,
+   "pct": 105,
+   "cash": 5,
+   "currency": "EUR",
+   "payouts": [
+    90,
+    61,
+    43,
+    31,
+    25
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1047,
+   "div": "FPO",
+   "n": 7,
+   "purse": 150,
+   "fees": 175,
+   "pct": 177,
+   "cash": 3,
+   "currency": "EUR",
+   "payouts": [
+    71,
+    45,
+    34
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.25
+   }
+  },
+  {
+   "tid": 1047,
+   "div": "MP40",
+   "n": 29,
+   "purse": 350,
+   "fees": 725,
+   "pct": 107,
+   "cash": 6,
+   "currency": "EUR",
+   "payouts": [
+    116,
+    81,
+    54,
+    42,
+    33,
+    24
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1047,
+   "div": "FP40",
+   "n": 5,
+   "purse": 50,
+   "fees": 125,
+   "pct": 148,
+   "cash": 1,
+   "currency": "EUR",
+   "payouts": [
+    50
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1048,
+   "div": "MPO",
+   "n": 2,
+   "purse": 75,
+   "fees": 88,
+   "pct": 85,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    75
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1048,
+   "div": "MP40",
+   "n": 1,
+   "purse": 38,
+   "fees": 44,
+   "pct": 86,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    38
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1049,
+   "div": "MPO",
+   "n": 2,
+   "purse": 190,
+   "fees": 70,
+   "pct": 271,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    190
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1049,
+   "div": "MP40",
+   "n": 1,
+   "purse": 95,
+   "fees": 35,
+   "pct": 271,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    95
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1049,
+   "div": "MP50",
+   "n": 1,
+   "purse": 95,
+   "fees": 35,
+   "pct": 271,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    95
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1049,
+   "div": "MP60",
+   "n": 1,
+   "purse": 95,
+   "fees": 35,
+   "pct": 0,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    95
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1050,
+   "div": "MPO",
+   "n": 17,
+   "purse": 1741,
+   "fees": 1275,
+   "pct": 140,
+   "cash": 7,
+   "currency": "USD",
+   "payouts": [
+    523,
+    366,
+    261,
+    191,
+    165,
+    131,
+    104
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.7
+   }
+  },
+  {
+   "tid": 1050,
+   "div": "FPO",
+   "n": 1,
+   "purse": 89,
+   "fees": 65,
+   "pct": 214,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    89
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1050,
+   "div": "MP40",
+   "n": 7,
+   "purse": 621,
+   "fees": 455,
+   "pct": 147,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    295,
+    187,
+    139
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.72
+   }
+  },
+  {
+   "tid": 1050,
+   "div": "MP50",
+   "n": 2,
+   "purse": 177,
+   "fees": 130,
+   "pct": 175,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    177
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1050,
+   "div": "MP70",
+   "n": 2,
+   "purse": 177,
+   "fees": 130,
+   "pct": 175,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    177
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1051,
+   "div": "MPO",
+   "n": 17,
+   "purse": 425,
+   "fees": 425,
+   "pct": 100,
+   "cash": 7,
+   "currency": "USD",
+   "payouts": [
+    128,
+    89,
+    64,
+    47,
+    40,
+    32,
+    25
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1051,
+   "div": "MP40",
+   "n": 3,
+   "purse": 75,
+   "fees": 75,
+   "pct": 100,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    47,
+    28
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.12
+   }
+  },
+  {
+   "tid": 1051,
+   "div": "MP50",
+   "n": 1,
+   "purse": 25,
+   "fees": 25,
+   "pct": 100,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    25
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1052,
+   "div": "MPO",
+   "n": 42,
+   "purse": 3818,
+   "fees": 3150,
+   "pct": 121,
+   "cash": 17,
+   "currency": "USD",
+   "payouts": [
+    760,
+    516,
+    371,
+    310,
+    256,
+    213,
+    191,
+    173,
+    157,
+    142,
+    130,
+    120,
+    111,
+    104,
+    96,
+    88,
+    80
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 4.0
+   }
+  },
+  {
+   "tid": 1052,
+   "div": "MP40",
+   "n": 13,
+   "purse": 1182,
+   "fees": 975,
+   "pct": 121,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    390,
+    270,
+    185,
+    142,
+    110,
+    85
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.29
+   }
+  },
+  {
+   "tid": 1052,
+   "div": "MP50",
+   "n": 8,
+   "purse": 727,
+   "fees": 600,
+   "pct": 121,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    300,
+    189,
+    138,
+    100
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.93
+   }
+  },
+  {
+   "tid": 1053,
+   "div": "MPO",
+   "n": 12,
+   "purse": 565,
+   "fees": 564,
+   "pct": 104,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    200,
+    140,
+    100,
+    75,
+    50
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 6.5
+   }
+  },
+  {
+   "tid": 1053,
+   "div": "FPO",
+   "n": 1,
+   "purse": 50,
+   "fees": 47,
+   "pct": 149,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    50
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1054,
+   "div": "MPO",
+   "n": 5,
+   "purse": 300,
+   "fees": 300,
+   "pct": 107,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    188,
+    112
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1054,
+   "div": "MP40",
+   "n": 1,
+   "purse": 60,
+   "fees": 60,
+   "pct": 113,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    60
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1054,
+   "div": "MP50",
+   "n": 4,
+   "purse": 240,
+   "fees": 240,
+   "pct": 103,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    150,
+    90
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1054,
+   "div": "FP60",
+   "n": 1,
+   "purse": 60,
+   "fees": 60,
+   "pct": 113,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    60
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1055,
+   "div": "MPO",
+   "n": 26,
+   "purse": 3870,
+   "fees": 2210,
+   "pct": 182,
+   "cash": 11,
+   "currency": "CAD",
+   "payouts": [
+    975,
+    640,
+    490,
+    380,
+    310,
+    250,
+    210,
+    180,
+    160,
+    145,
+    130
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 7.5
+   }
+  },
+  {
+   "tid": 1055,
+   "div": "FPO",
+   "n": 4,
+   "purse": 595,
+   "fees": 340,
+   "pct": 219,
+   "cash": 2,
+   "currency": "CAD",
+   "payouts": [
+    370,
+    225
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.88
+   }
+  },
+  {
+   "tid": 1055,
+   "div": "MP40",
+   "n": 11,
+   "purse": 1635,
+   "fees": 935,
+   "pct": 191,
+   "cash": 5,
+   "currency": "CAD",
+   "payouts": [
+    590,
+    400,
+    280,
+    205,
+    160
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 3.5
+   }
+  },
+  {
+   "tid": 1055,
+   "div": "MP50",
+   "n": 6,
+   "purse": 895,
+   "fees": 510,
+   "pct": 205,
+   "cash": 3,
+   "currency": "CAD",
+   "payouts": [
+    425,
+    270,
+    200
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.5
+   }
+  },
+  {
+   "tid": 1056,
+   "div": "MPO",
+   "n": 12,
+   "purse": 1864,
+   "fees": 864,
+   "pct": 215,
+   "cash": 5,
+   "currency": "CAD",
+   "payouts": [
+    671,
+    457,
+    317,
+    233,
+    186
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.4
+   }
+  },
+  {
+   "tid": 1056,
+   "div": "FPO",
+   "n": 1,
+   "purse": 92,
+   "fees": 72,
+   "pct": 125,
+   "cash": 1,
+   "currency": "CAD",
+   "payouts": [
+    92
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1056,
+   "div": "MP40",
+   "n": 6,
+   "purse": 882,
+   "fees": 432,
+   "pct": 204,
+   "cash": 3,
+   "currency": "CAD",
+   "payouts": [
+    419,
+    265,
+    198
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.45
+   }
+  },
+  {
+   "tid": 1056,
+   "div": "MP50",
+   "n": 3,
+   "purse": 496,
+   "fees": 216,
+   "pct": 229,
+   "cash": 2,
+   "currency": "CAD",
+   "payouts": [
+    310,
+    186
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1057,
+   "div": "FPO",
+   "n": 8,
+   "purse": 280,
+   "fees": 280,
+   "pct": 141,
+   "cash": 4,
+   "currency": "USD",
+   "payouts": [
+    115,
+    73,
+    53,
+    39
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.2
+   }
+  },
+  {
+   "tid": 1057,
+   "div": "FP60",
+   "n": 2,
+   "purse": 70,
+   "fees": 70,
+   "pct": 179,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    70
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1057,
+   "div": "FP70",
+   "n": 1,
+   "purse": 35,
+   "fees": 35,
+   "pct": 229,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    35
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1058,
+   "div": "MPO",
+   "n": 15,
+   "purse": 2225,
+   "fees": 1665,
+   "pct": 137,
+   "cash": 5,
+   "currency": "AUD",
+   "payouts": [
+    800,
+    545,
+    380,
+    280,
+    220
+   ],
+   "cashline_matches": [],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.5
+   }
+  },
+  {
+   "tid": 1058,
+   "div": "MP40",
+   "n": 5,
+   "purse": 740,
+   "fees": 555,
+   "pct": 142,
+   "cash": 2,
+   "currency": "AUD",
+   "payouts": [
+    465,
+    275
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.5
+   }
+  },
+  {
+   "tid": 1059,
+   "div": "MPO",
+   "n": 15,
+   "purse": 1107,
+   "fees": 690,
+   "pct": 164,
+   "cash": 6,
+   "currency": "USD",
+   "payouts": [
+    377,
+    255,
+    170,
+    125,
+    110,
+    70
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 11.69
+   }
+  },
+  {
+   "tid": 1059,
+   "div": "MP40",
+   "n": 5,
+   "purse": 369,
+   "fees": 230,
+   "pct": 171,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    230,
+    139
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.62
+   }
+  },
+  {
+   "tid": 1059,
+   "div": "MP50",
+   "n": 7,
+   "purse": 516,
+   "fees": 322,
+   "pct": 168,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    250,
+    155,
+    111
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 5.1
+   }
+  },
+  {
+   "tid": 1060,
+   "div": "MPO",
+   "n": 11,
+   "purse": 550,
+   "fees": 550,
+   "pct": 162,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    198,
+    135,
+    94,
+    69,
+    54
+   ],
+   "cashline_matches": [
+    40,
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.0
+   }
+  },
+  {
+   "tid": 1061,
+   "div": "MPO",
+   "n": 24,
+   "purse": 5675,
+   "fees": 2304,
+   "pct": 247,
+   "cash": 10,
+   "currency": "USD",
+   "payouts": [
+    2000,
+    1000,
+    700,
+    500,
+    400,
+    300,
+    250,
+    200,
+    175,
+    150
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 524.5
+   }
+  },
+  {
+   "tid": 1061,
+   "div": "MP50",
+   "n": 1,
+   "purse": 160,
+   "fees": 76,
+   "pct": 211,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    160
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1062,
+   "div": "MPO",
+   "n": 12,
+   "purse": 1474,
+   "fees": 1152,
+   "pct": 131,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    531,
+    361,
+    251,
+    184,
+    147
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.42
+   }
+  },
+  {
+   "tid": 1062,
+   "div": "FPO",
+   "n": 1,
+   "purse": 123,
+   "fees": 96,
+   "pct": 159,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    123
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1062,
+   "div": "MP40",
+   "n": 12,
+   "purse": 1473,
+   "fees": 1152,
+   "pct": 130,
+   "cash": 5,
+   "currency": "USD",
+   "payouts": [
+    531,
+    361,
+    251,
+    184,
+    146
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.3
+   }
+  },
+  {
+   "tid": 1062,
+   "div": "MP50",
+   "n": 3,
+   "purse": 368,
+   "fees": 288,
+   "pct": 138,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    230,
+    138
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1063,
+   "div": "MPO",
+   "n": 14,
+   "purse": 728,
+   "fees": 728,
+   "pct": 100,
+   "cash": 6,
+   "currency": "CAD",
+   "payouts": [
+    241,
+    167,
+    113,
+    87,
+    69,
+    51
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.76
+   }
+  },
+  {
+   "tid": 1064,
+   "div": "MPO",
+   "n": 18,
+   "purse": 360,
+   "fees": 360,
+   "pct": 100,
+   "cash": 8,
+   "currency": "USD",
+   "payouts": [
+    102,
+    68,
+    52,
+    41,
+    32,
+    25,
+    22,
+    18
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1.2
+   }
+  },
+  {
+   "tid": 1064,
+   "div": "MP50",
+   "n": 3,
+   "purse": 60,
+   "fees": 60,
+   "pct": 100,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    38,
+    22
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.5
+   }
+  },
+  {
+   "tid": 1065,
+   "div": "MPO",
+   "n": 16,
+   "purse": 422,
+   "fees": 496,
+   "pct": 87,
+   "cash": 7,
+   "currency": "USD",
+   "payouts": [
+    127,
+    89,
+    63,
+    46,
+    40,
+    32,
+    25
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.42
+   }
+  },
+  {
+   "tid": 1066,
+   "div": "MPO",
+   "n": 5,
+   "purse": 618,
+   "fees": 305,
+   "pct": 209,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    400,
+    218
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 13.75
+   }
+  },
+  {
+   "tid": 1066,
+   "div": "MP40",
+   "n": 6,
+   "purse": 741,
+   "fees": 366,
+   "pct": 208,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    421,
+    220,
+    100
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 69.03
+   }
+  },
+  {
+   "tid": 1066,
+   "div": "FP40",
+   "n": 1,
+   "purse": 123,
+   "fees": 61,
+   "pct": 202,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    123
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1067,
+   "div": "MPO",
+   "n": 7,
+   "purse": 911,
+   "fees": 602,
+   "pct": 153,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    433,
+    274,
+    204
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.97
+   }
+  },
+  {
+   "tid": 1067,
+   "div": "MP40",
+   "n": 4,
+   "purse": 520,
+   "fees": 344,
+   "pct": 154,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    325,
+    195
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": true,
+    "B_single_halfup_remainder_pos1st_neglast": true,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.0
+   }
+  },
+  {
+   "tid": 1067,
+   "div": "MP50",
+   "n": 6,
+   "purse": 781,
+   "fees": 516,
+   "pct": 153,
+   "cash": 3,
+   "currency": "USD",
+   "payouts": [
+    371,
+    235,
+    175
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": true,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.72
+   }
+  },
+  {
+   "tid": 1068,
+   "div": "MPO",
+   "n": 19,
+   "purse": 2065,
+   "fees": 1368,
+   "pct": 158,
+   "cash": 9,
+   "currency": "USD",
+   "payouts": [
+    555,
+    380,
+    290,
+    225,
+    175,
+    140,
+    115,
+    95,
+    90
+   ],
+   "cashline_matches": [
+    45
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 2.15
+   }
+  },
+  {
+   "tid": 1068,
+   "div": "FPO",
+   "n": 1,
+   "purse": 50,
+   "fees": 32,
+   "pct": 156,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    50
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1068,
+   "div": "MP50",
+   "n": 1,
+   "purse": 105,
+   "fees": 72,
+   "pct": 146,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    105
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1069,
+   "div": "MPO",
+   "n": 109,
+   "purse": 53460,
+   "fees": 29430,
+   "pct": 182,
+   "cash": 44,
+   "currency": "USD",
+   "payouts": [
+    10000,
+    5600,
+    3500,
+    2800,
+    2200,
+    1900,
+    1600,
+    1400,
+    1230,
+    1140,
+    1090,
+    1040,
+    1000,
+    960,
+    930,
+    900,
+    870,
+    840,
+    810,
+    780,
+    750,
+    720,
+    690,
+    660,
+    640,
+    620,
+    600,
+    580,
+    560,
+    540,
+    530,
+    520,
+    510,
+    500,
+    490,
+    480,
+    470,
+    460,
+    450,
+    440,
+    430,
+    420,
+    410,
+    400
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {}
+  },
+  {
+   "tid": 1069,
+   "div": "FPO",
+   "n": 38,
+   "purse": 21230,
+   "fees": 10260,
+   "pct": 207,
+   "cash": 19,
+   "currency": "USD",
+   "payouts": [
+    5000,
+    2700,
+    2000,
+    1500,
+    1250,
+    1050,
+    940,
+    850,
+    760,
+    690,
+    630,
+    590,
+    550,
+    515,
+    485,
+    460,
+    440,
+    420,
+    400
+   ],
+   "cashline_matches": [
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 1178.6
+   }
+  },
+  {
+   "tid": 1070,
+   "div": "MPO",
+   "n": 5,
+   "purse": 105,
+   "fees": 105,
+   "pct": 111,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    65,
+    40
+   ],
+   "cashline_matches": [
+    40
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": true,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 0.62
+   }
+  },
+  {
+   "tid": 1070,
+   "div": "FPO",
+   "n": 1,
+   "purse": 21,
+   "fees": 21,
+   "pct": 100,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    21
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1070,
+   "div": "MP40",
+   "n": 2,
+   "purse": 40,
+   "fees": 42,
+   "pct": 129,
+   "cash": 1,
+   "currency": "USD",
+   "payouts": [
+    40
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "single_winner_takes_purse": true
+   }
+  },
+  {
+   "tid": 1070,
+   "div": "MP50",
+   "n": 4,
+   "purse": 85,
+   "fees": 84,
+   "pct": 117,
+   "cash": 2,
+   "currency": "USD",
+   "payouts": [
+    60,
+    25
+   ],
+   "cashline_matches": [
+    40,
+    45,
+    50
+   ],
+   "model_matches": {
+    "A_single_halfup_noadjust": false,
+    "B_single_halfup_remainder_pos1st_neglast": false,
+    "C_split_fees_added_halfup_pos1st_neglast": false,
+    "D_round5_any_variant": false,
+    "sum_equals_purse": true,
+    "max_abs_dev_from_table": 6.88
+   }
+  }
+ ],
+ "note": "Tournament IDs are anonymised synthetic placeholders (1001-1070); division sizes, purses and payouts are as published by PDGA TM."
+}

@@ -1,0 +1,26 @@
+# Dependencies & environments (reinstallable; see each skill's SKILL.md)
+node_modules/
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Local credentials — never commit
+.env
+.env.*
+*cookies*.json
+*service-account*.json
+
+# Heavy render/output artifacts
+flyovers/
+*.mp4
+
+
+# Backups / logs
+*.bak
+*.log

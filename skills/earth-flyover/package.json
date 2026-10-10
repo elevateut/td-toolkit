@@ -1,0 +1,9 @@
+{
+  "name": "earth-flyover-skill",
+  "private": true,
+  "type": "module",
+  "description": "Headless ArcGIS SceneView flythrough renderer (Playwright + ffmpeg) for the earth-flyover skill",
+  "dependencies": {
+    "playwright": "1.59.0"
+  }
+}
